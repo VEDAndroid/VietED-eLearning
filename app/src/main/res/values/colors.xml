@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--VietED logo-->
+    <color name="vieted_logo_1">#fc8006</color>
+    <color name="vieted_logo_2">#1d89e3</color>
+
     <color name="list_item_title">#fff</color>
     <color name="list_background1">#fc8006</color>
     <color name="list_background">#303030</color>
@@ -8,4 +12,6 @@
     <color name="list_divider">#272727</color>
     <color name="counter_text_bg">#626262</color>
     <color name="counter_text_color">#c5c4c4</color>
+
+    <color name="mycourse_background">#ffffff</color>
 </resources>

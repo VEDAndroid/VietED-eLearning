@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <!-- Avatar-->
+    <ImageView
+        android:id="@+id/course_avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/scorm"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dip"
+        android:layout_toEndOf="@+id/course_avatar">
+
+        <!-- Name label -->
+        <TextView
+            android:id="@+id/course_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:textColor="@color/vieted_logo_2"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+
+        <!-- IID Label -->
+        <TextView
+            android:id="@+id/course_iid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:textColor="#acacac"/>
+
+        <!-- Progress label -->
+        <TextView
+            android:id="@+id/course_progress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:textColor="#acacac"/>
+    </LinearLayout>
+
+</RelativeLayout>
